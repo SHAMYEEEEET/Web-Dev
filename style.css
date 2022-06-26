@@ -1,0 +1,27 @@
+body {
+	background: url(header.jpg)no-repeat center fixed;
+	background-size: cover;
+}
+
+h1{
+	font-family: monospace;
+	font-size: 3em;
+	color: aliceblue;
+	border-bottom: 2px solid red;
+	border-right: solid red;
+	width: 400px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+hr {
+	border-color: #ffc107;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.btn-outline-warning {
+	padding: 15px 15px;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
