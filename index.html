@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" 
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-	<body>
-		<div class="container">
-			<div class="rows">
-				<header class="text-center col-12">
-					<h1><strong>Cringe Only</strong></h1>
-				</header>
-				<section class="text-center col-12">
-						<hr>
-					<button type="button" class="btn btn-outline-warning">Find out more</button>
-				</section>
-			</div>
-		</div>
-	</body>
+<body>
+    <header>Welcome to My Portfolio</header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I have learned complete HTML and enough CSS and JavaScript to build front-end web pages.</p>
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1 - A cool landing page</li>
+            <li>Project 2 - An interactive form</li>
+            <li>Project 3 - A simple JavaScript game</li>
+        </ul>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+    <script>
+        function showMessage() {
+            alert("Thanks for visiting my portfolio!");
+        }
+    </script>
+</body>
 </html>
